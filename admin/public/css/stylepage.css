@@ -1,0 +1,12 @@
+ul.pagination{
+    list-style: none;
+    float: right;
+}
+ul.pagination li.active{
+    font-weight: bold
+}
+ul.pagination li{
+    float: left;
+    display: inline-block;
+    padding: 10px
+}
