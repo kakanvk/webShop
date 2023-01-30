@@ -1,0 +1,26 @@
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+input[type=password]:focus{
+    width: 60%;
+}
+input[type=email]:focus {
+    width: 100%;
+}
+input[type=tel]:focus{
+    width: 100%;
+}
